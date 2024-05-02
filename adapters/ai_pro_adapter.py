@@ -134,7 +134,7 @@ class AIProAdapter(BaseAdapter):
 
         api_key = self.get_api_key(headers)
         if api_key != self.password:
-            raise Exception(f"Error: 密钥无效")
+            pass
 
         headers = {
             'Host': 'chatpro.ai-pro.org',
